@@ -183,18 +183,81 @@ $("#d13").toggle();
 }); 
 }); 
 
+//toggle question code 14
+$(document).ready(function() 
+{ 
+
+$("#shbtn14").click(function() 
+{ 
+
+$("#d14").toggle(); 
+
+}); 
+
+}); 
+
+//toggle question code 15
+$(document).ready(function() 
+{ 
+
+$("#shbtn15").click(function() 
+{ 
+
+$("#d15").toggle(); 
+
+}); 
+
+}); 
+
+//toggle question code 16
+$(document).ready(function() 
+{ 
+
+$("#shbtn16").click(function() 
+{ 
+
+$("#d16").toggle(); 
+
+}); 
+
+}); 
+
+//toggle question code 17
+$(document).ready(function() 
+{ 
+
+$("#shbtn17").click(function() 
+{ 
+
+$("#d17").toggle(); 
+
+}); 
+}); 
+
+
+
 $(document).ready(function(){
 $("h5").animate({
 color: "teal"
 });
 });
 
+//function to open home page
+function africaOnline (){
+open("https://salmandascript.github.io/AfricaOnline/");
+}
+
+//function to open home next page
+function angola(){
+open("https://salmandascript.github.io/Angola/Angola.html");
+}
+
 
 
 //quizz questions code 
 function checkAnswer()
   {
-   var totQuestion = 13;
+   var totQuestion = 17;
 
    var ansQuestion = 0;
 
